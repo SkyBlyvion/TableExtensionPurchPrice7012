@@ -5,8 +5,8 @@ tableextension 50050 ExtTablePurchPrice7012 extends "Purchase Price"
         field(50000; "Incoterm"; Option)
         {
             Caption = 'Incoterm';
-            OptionCaption = ' ,EXW,FAS,FCA,CPT,CIP,DAP,DDP,DPU, ,DUD,';
-            OptionMembers = " ","EXW","FAS","FCA","CPT","CIP","DAP","DDP","DPU","","DUD";
+            OptionCaption = ' ,EXW,FOB,CNI,CFR,CIF';
+            OptionMembers = " ","EXW",FOB,CNI,CFR,CIF;
             DataClassification = ToBeClassified;
         }
         field(50001; "Dernière Remise Fournisseur"; Date)
